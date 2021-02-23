@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <TextView
+        android:id="@+id/tvdTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        tools:text="Zack Snyder's Justice League" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:indeterminateTint="@color/white"
+        android:isIndicator="true"
+        android:numStars="10"
+        android:progressBackgroundTint="#FFFFFF"
+        android:progressTint="@android:color/holo_orange_light" />
+
+    <TextView
+        android:id="@+id/tvdRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/primary_text_dark"
+        tools:text="5/10" />
+
+    <TextView
+        android:id="@+id/tvdOverview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="18sp"
+        tools:text="Cool film by cool dude.Cool film by cool dude.Cool film by cool dude.Cool film by cool dude.Cool film by cool dude.Cool film by cool dude.Cool film by cool dude.Cool film by cool dude.Cool film by cool dude.Cool film by cool dude.Cool film by cool dude.Cool film by cool dude.Cool film by cool dude." />
+</LinearLayout>
