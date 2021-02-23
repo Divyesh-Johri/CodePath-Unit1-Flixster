@@ -17,7 +17,7 @@ Flix is an app that allows users to browse movies currently in theaters from the
 - [x] (2pts) Improved the user interface by experimenting with styling and coloring.
 - [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
-##Flix Part 2
+## Flix Part 2
 ### REQUIRED (10pts)
 - [x] (8pts) Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
 - [x] (2pts) Allow video posts to be played in full-screen using the YouTubePlayerView.
